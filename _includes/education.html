@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Education</title>
+
+  <!-- Open Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root { --text: #111; --muted: #555; --border: #e8e8e8; }
+    body {
+      font-family: "Open Sans", sans-serif;
+      color: var(--text);
+      margin: 0;
+      padding: 24px;
+      line-height: 1.5;
+    }
+    main { max-width: 900px; margin: 0 auto; }
+    h1 { margin: 0 0 16px; font-size: 28px; }
+    .edu-list { display: grid; gap: 14px; }
+    .edu-item {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px 16px;
+    }
+    .topline {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+      font-weight: 700;
+    }
+    .degree { font-weight: 700; }
+    .dates { color: var(--muted); font-weight: 600; }
+    .school { margin-top: 4px; font-weight: 600; }
+    .meta { margin-top: 6px; color: var(--muted); }
+    .meta div { margin-top: 2px; }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>Education</h1>
+
+    <section class="edu-list" aria-label="Education">
+      <article class="edu-item">
+        <div class="topline">
+          <div class="degree">PhD in Computer Science</div>
+          <div class="dates">Aug, 2024 – present</div>
+        </div>
+        <div class="school">University of Wisconsin, Madison</div>
+        <div class="meta">
+          <div><strong>CGPA:</strong> 3.786 / 4.0</div>
+        </div>
+      </article>
+
+      <article class="edu-item">
+        <div class="topline">
+          <div class="degree">MS (By Research) in C.S.E1</div>
+          <div class="dates">Jan, 2023 – July, 2024</div>
+        </div>
+        <div class="school">Indian Institute of Technology, Madras</div>
+        <div class="meta">
+          <div><strong>Advisor:</strong> Shweta Agrawal</div>
+          <div><strong>Thesis:</strong> Cryptographic applications of k-SUM</div>
+          <div><strong>CGPA:</strong> 8.80 / 10.0</div>
+        </div>
+      </article>
+
+      <article class="edu-item">
+        <div class="topline">
+          <div class="degree">MSc. in Computer Science</div>
+          <div class="dates">Dec, 2020 – Jul, 2022</div>
+        </div>
+        <div class="school">Chennai Mathematical Institute</div>
+        <div class="meta">
+          <div><strong>Thesis advisor:</strong> Shweta Agrawal</div>
+          <div><strong>Thesis:</strong> Fully Homomorphic Signatures</div>
+          <div><strong>CGPA:</strong> 8.81 / 10.0</div>
+        </div>
+      </article>
+
+      <article class="edu-item">
+        <div class="topline">
+          <div class="degree">B.Tech. in C.S.E</div>
+          <div class="dates">Jul, 2016 – Aug, 2020</div>
+        </div>
+        <div class="school">Manipal Institute of Technology, Manipal</div>
+        <div class="meta">
+          <div><strong>CGPA:</strong> 8.22 / 10.0</div>
+        </div>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
