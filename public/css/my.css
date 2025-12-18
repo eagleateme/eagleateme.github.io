@@ -41,31 +41,31 @@ main a[href] {
 
 /* color title/h1 heading */
 .page h1 {
-  color: #722F37;
+  color: #722F37 !important;
 }
 
 /* color list numbers */
 ol {
-  color: #008080; /* teal numbers */
+  color: #008080 !important;; /* teal numbers */
 }
 
 /* color list items */
 ol li {
-  color: #333333; /* dark gray text */
+  color: #333333 !important;; /* dark gray text */
 }
 
 /* color bold titles inside list items */
 ol li b {
-  color: #008080; /* teal paper titles */
+  color: #008080 !important;; /* teal paper titles */
 }
 
 /* color links inside the list */
 ol li a {
-  color: #009688; /* teal links */
+  color: #009688 !important;; /* teal links */
 }
 
 ol li a:hover {
-  color: #00695c;
+  color: #00695c !important;;
 }
 
 
