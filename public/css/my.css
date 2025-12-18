@@ -46,26 +46,26 @@ main a[href] {
 
 /* color list numbers */
 ol {
-  color: #008080 !important;; /* teal numbers */
+  color: #008080 !important; /* teal numbers */
 }
 
 /* color list items */
 ol li {
-  color: #333333 !important;; /* dark gray text */
+  color: #333333 !important; /* dark gray text */
 }
 
 /* color bold titles inside list items */
 ol li b {
-  color: #008080 !important;; /* teal paper titles */
+  color: #926c15 !important; /* teal paper titles */
 }
 
 /* color links inside the list */
 ol li a {
-  color: #009688 !important;; /* teal links */
+  color: #009688 !important; /* teal links */
 }
 
 ol li a:hover {
-  color: #00695c !important;;
+  color: #00695c !important;
 }
 
 .page-title {
