@@ -26,3 +26,9 @@
   background-position: right bottom;
   padding: 4rem;
 }
+
+.page a,
+.content a,
+main a {
+  color: teal;
+}
