@@ -61,7 +61,7 @@ ol li b {
 
 /* color links inside the list */
 ol li a {
-  color: #009688 !important; /* teal links */
+  color: gray !important; /* teal links */
 }
 
 ol li a:hover {
