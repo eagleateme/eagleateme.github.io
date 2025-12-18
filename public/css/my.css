@@ -32,3 +32,9 @@
 main a {
   color: teal;
 }
+
+.page a[href],
+.content a[href],
+main a[href] {
+  color: teal;
+}
