@@ -1,0 +1,71 @@
+.desktop{
+    display: none;
+}
+
+@media(min-width:800px){
+    .desktop{
+        display: block;
+    }
+    .mobile{
+        display: none;
+    }
+}
+
+.descbox{
+    border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;width:100%;float:center;display:none;font-size:medium;background-color:#f0ffff;margin-left:0;padding:10px;text-align:left;
+}
+
+.descfont{
+    font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;
+}
+
+.errorpage{
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: contain;      /* or cover */
+  background-position: right bottom;
+  padding: 4rem;
+}
+
+.page a,
+.content a,
+main a {
+  color: teal;
+}
+
+.page a[href],
+.content a[href],
+main a[href] {
+  color: teal;
+}
+
+/* color title/h1 heading */
+.page h1 {
+  color: #722F37 !important;
+}
+
+/* color list items */
+ol li {
+  color: #333333 !important; /* dark gray text */
+}
+
+/* color bold titles inside list items */
+ol li b {
+  color: #926c15 !important; 
+}
+
+/* color links inside the list */
+ol li a {
+  color: gray !important;
+}
+
+ol li a:hover {
+  color: #00695c !important;
+}
+
+.page-title {
+  color: #722F37 !important;
+}
+
+
+
