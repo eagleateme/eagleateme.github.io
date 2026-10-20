@@ -4,7 +4,7 @@ title: Talks and Teaching
 ---
 
 ## Talks and Outreach
-1. [3rd Bangalore Crypto Day](https://bangalorecryptoday.github.io/#talks){:target="_blank"}, **Bangalore, India**: Gave a talk on my work on “k-SUM in the sparse regime“. 
+1. [3rd Bangalore Crypto Day](https://bangalorecryptoday.github.io/#talks){:target="_blank"}, **Bangalore, India**: Gave a talk on “k-SUM in the sparse regime“. 
 
 ## TAships
 Here are the courses I have TA'ed over years and I've thoroughly enjoyed teaching to and learning from the students in those respective classes.
